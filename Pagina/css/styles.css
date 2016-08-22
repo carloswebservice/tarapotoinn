@@ -1,0 +1,41 @@
+/* Estructura general
+========================================================================== */
+#wrapper { }
+	#ec-content { padding-top: 62px; }
+		.ec-tops { padding: 0 12px; }
+			.ec-top-big { margin-bottom: 12px; }
+			.ec-top-big figure { }
+			.ec-top-big figcaption { }
+			.ec-top-big h2 { background-color: #333; font-size: 21px; font-family: "glosabold"; }
+			.ec-top-big h2 a { color: #fff; display: block; padding: 12px; }
+
+			.ec-top { float: left; margin: 0 3% 12px 0; width: 48.5%; }
+			.ec-top.last { margin-right: 0; }
+			.ec-top figure { }
+			.ec-top figcaption { }
+			.ec-top h2 { background-color: #333; font-size: 17px; font-family: "glosabold"; min-height: 110px; }
+			.ec-top h2 a { color: #fff; display: block; padding: 10px; }
+			.ec-tops >h4 {padding: 10px;font-weight: bold;}
+			.ec-tops>p{font-size: 18px;text-align: justify;}
+			.ec-tops h5{font-size: 17px;font-weight: bold;margin-top: 5px;color: #f77500}
+
+		.ec-breakingnews { background-repeat: repeat-x; border-top: 7px solid #ddd; margin-bottom: 12px; padding: 22px 12px 5px; }
+		.ec-breakingnews > h3 { border-bottom: 2px solid #bbb; font: 22px/1 "Arial";font-weight: bold; margin-bottom: 12px; padding-bottom: 10px; text-transform: uppercase; }
+			.f-nota { border-bottom: 2px solid #ddd; margin-bottom: 12px; overflow: hidden; padding-bottom: 12px; }
+			.f-nota figure { float: left; width: 40%; }
+			.f-nota .f-detalle { padding-left: 43%; }
+			.f-nota h2 { font: 15px/1.2 "prelobold";font-weight: bold; }
+				.fecha-seccion { line-height: 1; margin-bottom: 5px; }
+				.fecha-seccion .fecha { color: #999; display: inline-block; font: 12px/1 "prelomedium"; margin-right: 7px; white-space: nowrap; }
+				.fecha-seccion h3 { display: inline-block; font: 12px/1 "Arial"; text-transform: uppercase;color: #2E2E2E}
+
+/*	-------*/
+
+.reserva { background-color: #55443a; padding: 12px; margin-top: 10px;}
+	.reserva > h3 { color: #fff; font: 19px/1 "prelobold"; margin-bottom: 12px; text-transform: uppercase;text-align: center; }
+		.reservar { }
+			.frm-control { margin-bottom: 12px; position: relative; }
+			.frm-control select { background-color: #fff; border: 0; font-size: 15px; height: 30px; padding: 0 10px; width: 100%; }
+			.frm-control input {width: 100%;padding: 0 10px;height: 30px;}
+			.frm-control label {color: #fff;font-size: 16px;}
+			.frm-boton .btn { background-color: #f77500; border: 0; color: #fff; font: 16px/30px "prelobold"; text-transform: uppercase; width: 100%; }

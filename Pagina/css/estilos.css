@@ -1,0 +1,269 @@
+body {
+	background-color: #e9eaed;
+	margin: 0;
+}
+#Contenedor-1{
+	width: 77.7%;
+	margin: auto;
+}
+#Contenedor-2{
+	width: 100%;
+	background-color: #fff;
+	margin-top: -15px;
+	padding: 12px 20px;
+}
+#parte{
+	padding: 0px 0px;
+	margin-top: -40px;
+}
+
+.menus{
+	font-weight: bold;
+	font-size: 16px;
+}
+#h5{
+	color: #2E64FE;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+}
+/*calendario*/
+
+/*fin calendario*/
+
+figure{
+	background-color: #4d4d4d;
+	position: relative;
+	width: 100%;
+	line-height: .7;	
+}
+figure figcaption p{
+	display: none;
+}
+figure:hover figcaption p{
+	display: block;
+	position: absolute;
+	line-height: .9;
+	background: rgba(0, 0, 0, .7);
+	height: 99px;
+
+}
+figcaption{
+	color: #fff;
+}
+figcaption h2{	
+	padding: 10px 8px 20px 8px;
+}
+figcaption h2 a{	
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;	
+}
+figcaption a h3:hover{
+	text-decoration: underline;
+}
+figcaption h2 a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+figcaption h3{
+	position: absolute;
+	background-color: #FC971C;
+	color: #333;
+	font-size: 12px;
+	padding: 5px 15px 5px 8px;
+	margin-top: -23px;
+	font-weight: bold;
+}
+figcaption p{
+	color: #bababa;
+	margin-top: 0px;
+	padding: 14px 0 0 5px;
+	font-size: 15px;
+}
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover>h3{
+	font-size: 18px;
+}
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.2em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
+#img{
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+#margen{
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 480px){
+	#Contenedor-1{
+		width: 100%;
+	}
+	#Contenedor-2{
+		padding: 6px 0px;
+
+	}
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+
+}
+footer{
+	background: #F2F2F2;
+	box-shadow: 15px 25px 50px 0px #A4A4A4 inset;
+	padding: 15px;
+}
+#imgred{
+	width: 33px;
+	height: 33px;
+}
+#Telefono{
+	font-family: Forte;
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+}
+.post {
+	padding-bottom:15px;
+	margin-bottom:15px;
+	border-bottom:1px solid #999;
+}
+.post-title{
+	color: #0431B4;
+	margin-top: 0px;
+}
+.contenido{
+	font-size: 15px;
+}
+.post .thumb {
+	margin-right:20px;
+	width:40%;
+}
+.color1{
+	background-color: #F2F2F2;
+	padding: 10px;
+}
+#actividad{
+	font-weight: bold;
+	color: orange;
+}
+.event{
+	font-size: 23px;
+	color: #088A08;
+	cursor: pointer;
+	display: block;
+	font-family: 'forte';
+	margin-top: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.event>span{
+	font-size: 18px!important;
+}
+#reservaciones{
+	margin-top: 0;
+	background-color: #088A08;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 0;
+}
+#reservas{
+	margin-top: 0;
+	width: 100%;
+	margin-left: 0;
+	background: #01403a;
+}
+#reservas button{
+	margin-bottom: -10px;
+	background-color: #088A08;
+	color: #fff;
+}
+#reservas button:hover{
+	background-color: #04B404;
+}
+
+#reservas1{
+	margin-top: 0;
+	width: 100%;
+	margin-left: 0;
+	background: #01403a;
+}
+
+#reservas1 button{
+	margin-bottom: -10px;
+	background-color: #088A08;
+	color: #fff;
+}
+#reservas1 button:hover{
+	background-color: #04B404;
+}
+
+.thumb{
+	margin-right:5px;
+	width:50%;
+}
+.thumb img{
+	width:100%;
+}
+#contacto{
+	margin: 10px 0px;
+	padding: 20px 15px;
+	width: 100%;
+	background: rgba(0,0,0,.1);
+}
+#contacto h3{
+	margin: -15px 0 5px 0;
+	font-weight: bold;
+}
+#contacto textarea{
+	max-height: 100px;
+	min-width: 100%;
+	max-width: 100%;
+
+}
+#contacto button{
+	margin-bottom: -10px;
+	background-color: #088A08;
+	color: #fff;
+}
+#contacto button:hover{
+	background-color: #04B404;
+}
+
+@media screen and (max-width: 768px) {
+	.thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 10px;
+	}
+}
+.service-heading {
+    margin: 6px 0;
+    text-transform: none;
+    color: #000;
+    font-weight: bold;
+}
+.imghab{
+	margin-top: -50px;
+	margin-bottom: 30px;
+	text-align: right;
+}
+#ubicacion{
+	margin-top: 0px;
+}
+.caja-redes {
+	margin-left: 190px;
+    margin-top: -60px;
+    padding: 5px 0px;
+    position: relative;
+    width: 180px;
+}
+.caja-redes>a{
+	margin-right: 10px;
+}

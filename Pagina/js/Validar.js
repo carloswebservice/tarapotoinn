@@ -1,0 +1,176 @@
+
+$(function(){	
+	
+	$('[data-toggle="popover"]').popover();
+
+	$('#d1').contenthover({
+    overlay_width:222,
+    overlay_height:170,
+    effect:'slide',
+    slide_direction:'left',
+    overlay_x_position:'left',
+    overlay_y_position:'center',
+    overlay_background:'#000',
+    overlay_opacity:0.8
+    });
+    $('#d2').contenthover({
+    effect:'slide',
+    slide_speed:300,
+    overlay_background:'#000',
+    overlay_opacity:0.8
+    });
+    $('#d3').contenthover({
+    overlay_background:'#000',
+    overlay_opacity:0.8
+    });
+
+    //Habitaciones
+    $('#h1').contenthover({
+        overlay_width:200,
+        overlay_height:65,
+        effect:'slide',
+        slide_direction:'right',
+        overlay_x_position:'right',
+        overlay_y_position:'bottom',
+        overlay_background:'#000',
+        overlay_opacity:0.8
+    });
+    $('#h2').contenthover({
+        overlay_width:200,
+        overlay_height:65,
+        effect:'slide',
+        slide_direction:'right',
+        overlay_x_position:'right',
+        overlay_y_position:'center',
+        overlay_background:'#000',
+        overlay_opacity:0.8
+    });
+    $('#h3').contenthover({
+        overlay_width:210,
+        overlay_height:65,
+        effect:'slide',
+        slide_direction:'right',
+        overlay_x_position:'right',
+        overlay_y_position:'top',
+        overlay_background:'#000',
+        overlay_opacity:0.8
+    });
+    $('#h4').contenthover({
+        overlay_width:230,
+        overlay_height:65,
+        effect:'slide',
+        slide_direction:'right',
+        overlay_x_position:'right',
+        overlay_y_position:'bottom',
+        overlay_background:'#000',
+        overlay_opacity:0.8
+    });
+    $('#h5').contenthover({
+        overlay_width:240,
+        overlay_height:65,
+        effect:'slide',
+        slide_direction:'right',
+        overlay_x_position:'right',
+        overlay_y_position:'center',
+        overlay_background:'#000',
+        overlay_opacity:0.8
+    });
+    $('#h6').contenthover({
+        overlay_width:200,
+        overlay_height:65,
+        effect:'slide',
+        slide_direction:'right',
+        overlay_x_position:'right',
+        overlay_y_position:'top',
+        overlay_background:'#000',
+        overlay_opacity:0.8
+    });
+
+    $('#d4').contenthover({
+    overlay_width:222,
+    overlay_height:170,
+    effect:'slide',
+    slide_direction:'right',
+    overlay_x_position:'right',
+    overlay_y_position:'center',
+    overlay_background:'#000',
+    overlay_opacity:0.8
+    });
+	$('#laguna').contenthover({
+    overlay_width:170,
+    overlay_height:80,
+    effect:'slide',
+    slide_direction:'right',
+    overlay_x_position:'right',
+    overlay_y_position:'center',
+    overlay_background:'#000',
+    overlay_opacity:0.8
+	});
+	$('#cataratas').contenthover({
+    overlay_width:170,
+    overlay_height:80,
+    effect:'slide',
+    slide_direction:'right',
+    overlay_x_position:'right',
+    overlay_y_position:'center',
+    overlay_background:'#000',
+    overlay_opacity:0.8
+	});
+	$('#canotaje').contenthover({
+    overlay_width:170,
+    overlay_height:80,
+    effect:'slide',
+    slide_direction:'right',
+    overlay_x_position:'right',
+    overlay_y_position:'center',
+    overlay_background:'#000',
+    overlay_opacity:0.8
+	});
+	$('#yogurt').contenthover({
+    effect:'slide',
+    slide_speed:100,
+    overlay_background:'#000',
+    overlay_opacity:0.8
+    });
+	$('#NaturaViva').contenthover({
+	    overlay_width:180,
+	    overlay_height:120,
+	    effect:'slide',
+	    slide_direction:'right',
+	    overlay_x_position:'right',
+	    overlay_y_position:'center',
+	    overlay_background:'#000',
+	    overlay_opacity:0.8
+	});
+	$('#PlatosTipicos').contenthover({
+	    overlay_background:'#000',
+	    overlay_opacity:0.8
+	});
+	$('#Puntaverde').contenthover({
+	    effect:'slide',
+	    slide_speed:300,
+	    overlay_background:'#000',
+	    overlay_opacity:0.8
+	});
+
+
+
+	$('#Mision').contenthover({
+	    overlay_background:'#000',
+	    overlay_opacity:0.8
+	});
+
+	$('#Vision').contenthover({
+	    overlay_background:'#000',
+	    overlay_opacity:0.8
+	});
+});
+
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 115) {
+        $('#BarraNavegacion').addClass("navbar-fixed-top").fadeIn();
+    }else {
+        $('#BarraNavegacion').removeClass("navbar-fixed-top");
+    }
+});
+
